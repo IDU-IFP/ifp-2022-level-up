@@ -40,7 +40,7 @@
    ```
    1. IFP의 Level Up! 스터디 저장소 Fork
    2. 본인의 Level Up!스터디 저장소를 Clone (로컬의 저장소 폴더가 생성됨)
-   $ git clone https://github.com/[자신의 계정이름]/ifp-2022-restart-ok.git  
+   $ git clone https://github.com/[자신의 계정이름]/ifp-2022-level-up.git
    3. IFP의 Level Up!스터디 저장소와 동기화 (변경된 내역을 나의 저장소에도 일치시켜주는 작업)
    
    # 먼저 로컬부터 동기화해줘야 한다. (Fork 하기 전의 레포. 즉, IFP 레포의 remote 이름을 "upstream"이라고 해준다.)
