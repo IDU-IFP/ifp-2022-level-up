@@ -8,14 +8,15 @@
 
 - 참여 동아리원
   - 경준현 <[hyeon0697](https://github.com/hyeon0697)>
-  - 김성환<[PotatoMeme](https://github.com/PotatoMeme)>
+  - 김성환 <[PotatoMeme](https://github.com/PotatoMeme)>
   - 유경덕 <[N0Rib](https://github.com/N0Rib)>
   - 이민욱 <[adasey](https://github.com/adasey)>
-  - 박부현<[PARKBUHYEON](https://github.com/PARKBUHYEON)>
-  - 홍석환<[hsh519](https://github.com/hsh519)>
-  - 권성민<[KwonSeongMin1](https://github.com/KwonSeongMin1)>
-  - 김주하<[khabh](https://github.com/khabh)>
-  - 김진<[chamjin](https://github.com/chamjin)>
+  - 박부현 <[PARKBUHYEON](https://github.com/PARKBUHYEON)>
+  - 홍석환 <[hsh519](https://github.com/hsh519)>
+  - 권성민 <[KwonSeongMin1](https://github.com/KwonSeongMin1)>
+  - 김주하 <[khabh](https://github.com/khabh)>
+  - 김  진 <[chamjin](https://github.com/chamjin)>
+  - 홍유진 <[timobyjin02](https://github.com/timobyjin02)>
 
 ## ❓ 무엇을 하는가?
 
