@@ -8,14 +8,15 @@
 
 - 참여 동아리원
   - 경준현 <[hyeon0697](https://github.com/hyeon0697)>
-  - 김성환<[PotatoMeme](https://github.com/PotatoMeme)>
+  - 김성환 <[PotatoMeme](https://github.com/PotatoMeme)>
   - 유경덕 <[N0Rib](https://github.com/N0Rib)>
   - 이민욱 <[adasey](https://github.com/adasey)>
-  - 박부현<[PARKBUHYEON](https://github.com/PARKBUHYEON)>
-  - 홍석환<[hsh519](https://github.com/hsh519)>
-  - 권성민<[KwonSeongMin1](https://github.com/KwonSeongMin1)>
-  - 김주하<[khabh](https://github.com/khabh)>
-  - 김진<[chamjin](https://github.com/chamjin)>
+  - 박부현 <[PARKBUHYEON](https://github.com/PARKBUHYEON)>
+  - 홍석환 <[hsh519](https://github.com/hsh519)>
+  - 권성민 <[KwonSeongMin1](https://github.com/KwonSeongMin1)>
+  - 김주하 <[khabh](https://github.com/khabh)>
+  - 김  진 <[chamjin](https://github.com/chamjin)>
+  - 홍유진 <[timobyjin02](https://github.com/timobyjin02)>
 
 ## ❓ 무엇을 하는가?
 
@@ -31,9 +32,9 @@
 
 2. 작성한 코드를 관련 폴더에 저장
 
-3. 저장한 파일을 개인별 Fork한 Repo의 main로 PUSH
+3. 저장한 파일을 개인별 Fork한 Repo의 main으로 PUSH
 
-4. 개인별 깃허브 Repo에 PUSH된 main를 IFP의 스터디 저장소의 main로 PR을 보냄
+4. 개인별 깃허브 Repo에 PUSH된 main 브랜치를 IFP의 스터디 저장소의 main 브랜치로 PR을 보냄
 
 5. 해당 과정을 반복
 
@@ -73,7 +74,7 @@
    
    11. 본인이 Fork한 깃헙 저장소로 이동하여 Pull Request(PR)를 보낸다.
     ❗ 이때, IFP 저장소의 main 브랜치가 아닌 "복사한 레포지토리"로 보내야함
-    이후 스터디 그룹장이 확인한 후 IFP 저장소의 본인 브랜치로 병합시켜주는 작업을 하게 된다.
+    이후 스터디 그룹장이 확인한 후 IFP 저장소의 main 브랜치로 병합시켜주는 작업을 하게 된다.
    
    12. 다른 스터디원의 문제 풀이가 올라온 경우 다음 주차가 넘어가지 전까지 코드리뷰를 해준다.
    ```
@@ -81,4 +82,4 @@
 - **git pull**을 이용하여 코드작업 전, 후로 **최신화** 시켜주기
 - **git pull**을 이용하면 **다른 사람의 폴더가 자신의 작업 환경에 생기는데** 이때 다른 사람의 폴더를 **절대로 삭제**하지 않습니다!!
 - **pull**을 사용할 때에는 **원본 레포지토리**를 이용한다.
-- **push**을 할 때에는 **fork한 개인 레포지토리**를 이용한다.****
+- **push**을 할 때에는 **fork한 개인 레포지토리**를 이용한다.
