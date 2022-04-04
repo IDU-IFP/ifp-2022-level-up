@@ -1,5 +1,5 @@
 # 링크
-# https://www.acmicpc.net/problem/2738
+# https://www.acmicpc.net/problem/2438
 
 # 별 찍기 - 1
 
