@@ -5,8 +5,8 @@
 totalPrice = int(input())
 count = 0
 
-for i in range (9):
+for i in range(9):
     bookPrice = int(input())
     count += bookPrice
 
-print(totalPrice-count)    
+print(totalPrice-count)
