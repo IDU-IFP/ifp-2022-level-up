@@ -3,7 +3,7 @@ Students = []
 
 for i in range(int(input())):
     name, day, month, year = input().split()
-    Students.append([n, int(day), int(month), int(year)])
+    Students.append([name, int(day), int(month), int(year)])
 
 Students.sort(key = lambda x:(x[3], x[2], x[1]))
 
