@@ -1,27 +1,12 @@
-# num = 5
-# count = 1
-# flag = 1
-# arr = [[0] * num for _ in range(num)]
-# x, y = 0, 0
-# for i in range(num):
-#     arr[y][x] = count;
-#     count += 1
-#     x += flag
-# x -= 1
+def d(num):
+    sum = num
+    while num > 0:
+        sum += num % 10
+        num //= 10
+    if sum < 10000:
+        return sum
 
-# for j in range(num-1, 0, -1):
-#     for k in range(j):
-#         y += flag
-#         arr[y][x] = count;
-#         count += 1
-#     flag *= -1
-#     for l in range(j):
-#         x += flag
-#         arr[y][x] = count;
-#         count += 1
-        
-# for _ in range(num):
-#     for i in range(num):
-#         print(arr[_][i],end=" ")
-#     print(" ")
-#HELLO
+for i in range(1,10001):
+    print(d(i))
+
+    
