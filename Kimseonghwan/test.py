@@ -1,3 +1,4 @@
+print("*"*3)
 if(1 and 0):
     print(0)
 else:
