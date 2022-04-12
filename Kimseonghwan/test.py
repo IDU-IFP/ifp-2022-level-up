@@ -2,9 +2,9 @@ if(1 and 0):
     print(0)
 else:
     print(1)
-A = int(input())
-B = int(input())
-print(A, B)
+A = int(3)
+B = int(4)
+print(6 % 0)
 
 typed_int = int(input())
 

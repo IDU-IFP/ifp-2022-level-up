@@ -53,7 +53,7 @@ def solution():
             C, G = map(float, input().split())
             sum1 += C
             sum2 += C*G
-        print(int(sum1), '%.1f' % (sum2/N))
+        print(int(sum1), '%.1f' % (sum2/sum1))
 
 
 # 실행 ------------------------------------------------------------
