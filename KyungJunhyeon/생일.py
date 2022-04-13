@@ -60,5 +60,5 @@ for i in range(peopleNumber):
                 defaultYoungDay = day
                 youngMansName = name
 
-print(oldMansName)
 print(youngMansName)
+print(oldMansName)
