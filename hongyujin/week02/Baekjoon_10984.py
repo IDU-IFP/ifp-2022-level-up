@@ -1,6 +1,6 @@
 t = int(input())  # 학기의 수 입력
 
-for _ in range(t):  # t 반복문
+for _ in range(t):  # for문으로 t 반복문
     n = int(input())  # 과목의 수
     credit = 0
     grade = 0
