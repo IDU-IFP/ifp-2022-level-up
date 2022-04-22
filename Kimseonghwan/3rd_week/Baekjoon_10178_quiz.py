@@ -1,6 +1,5 @@
 # 링크
-# https://www.acmicpc.net/problem/5522
-
+# https://www.acmicpc.net/problem/10178
 # 할로윈의 사탕
 
 # 문제
