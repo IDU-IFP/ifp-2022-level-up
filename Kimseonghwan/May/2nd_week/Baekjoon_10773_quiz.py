@@ -42,13 +42,16 @@
 # 6
 # 예제 출력 2
 # 7
+# import -----------------------------------------------------------
+import sys
+
 
 # 함수 -----------------------------------------------------------
 def solution():
-    repeat = int(input())
+    repeat = int(sys.stdin.readline())
     numList = list()
     for _ in range(repeat):
-        saveNum = int(input())
+        saveNum = int(sys.stdin.readline())
         if saveNum == 0:
             numList.pop()
         else:
