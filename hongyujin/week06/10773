@@ -1,0 +1,12 @@
+import sys
+input = sys.stdin.readline
+
+n = int(input())
+z = []
+for i in range(n):
+    num = int(input())
+    if num == 0:    # 0 일 경우에는
+        z.pop()     # pop을(마지막 값 제거) 이용하여 재민이가 가장 최근에 쓴 수를 지우기
+    else:
+        z.append(num)   # 아닐 경우 해당 수를 쓴다 (append이용하여 정수 추가)
+print(sum(z))           # 적어낸 수의 합을 출력
