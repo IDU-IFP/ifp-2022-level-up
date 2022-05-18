@@ -14,12 +14,10 @@
 
 # 함수 -----------------------------------------------------------
 def solution():
-    word = input()
-    for i in word:
-        if ord(i) >= ord('a'):
-            print(i.upper(), end="")
-        else:
-            print(i.lower(), end="")
+    T = int(input())
+    resultList = [sum(map(int, input().split(','))) for _ in range(T)]
+    for i in resultList:
+        print(i)
 
 
 # 실행 ------------------------------------------------------------
