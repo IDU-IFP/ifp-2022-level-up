@@ -26,7 +26,7 @@
 def solution():
     T = int(input())
     for _ in range(T):
-        numList = [i for i in input().split() if int(i) % 2 == 0]
+        numList = [int(i) for i in input().split() if int(i) % 2 == 0]
         print(sum(numList), min(numList))
 
 
