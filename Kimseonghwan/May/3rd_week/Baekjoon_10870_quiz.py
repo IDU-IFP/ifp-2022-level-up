@@ -1,5 +1,5 @@
 # 링크
-# https://www.acmicpc.net/problem/5800
+# https://www.acmicpc.net/problem/3058
 
 # 성적 통계
 
@@ -33,8 +33,8 @@ def solution():
         numList = sorted(list(map(int, input().split()))[1:])
 
         gap = 0
-        for j in range(len(numList)-1):
-            pergap = numList[j+1]-numList[j]
+        for i in range(len(numList)-1):
+            pergap = numList[i+1]-numList[i]
             gap = pergap if gap < pergap else gap
 
         print("Class", (i+1))
