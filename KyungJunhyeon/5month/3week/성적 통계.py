@@ -7,8 +7,8 @@ num = int(input())
 for _ in range(num):
     Largest_Gap = 0
     classList = list(map(int, input().split()))
+    classList = classList[1:]
     classList.sort(reverse=True)
-    classList.pop()
 
     for i in range(len(classList)):
         if i != len(classList)-1:
