@@ -1,6 +1,9 @@
+import sys
+
 numList = []
-for i in range(int(input())):
-    num = int(input())
+forNum = int(sys.stdin.readline())
+for i in range(forNum):
+    num = int(sys.stdin.readline())
     if num == 0:
         numList.pop()
     else:
