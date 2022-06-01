@@ -6,3 +6,12 @@
 
 # 출력
 # 각 줄의 첫글자를 대문자로 바꾼뒤 출력한다.
+
+import sys
+
+input = sys.stdin.readline
+
+for _ in range(int(input())):
+    typed = input()
+
+    print(typed[0].upper() + typed[1:-1])
