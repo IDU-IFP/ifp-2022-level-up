@@ -15,7 +15,7 @@ for _ in range(int(input())):
     h_count = n
     if(not n): # 나머지가 0이면 최고층이므로 h 저장
         h_count = h
-    if(w_count < 10):
+    if(w_count < 10): # 출력
         print(str(h_count)+"0"+str(w_count))
     else:
         print(str(h_count)+str(w_count))
