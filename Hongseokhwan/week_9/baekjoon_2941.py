@@ -2,7 +2,7 @@
 
 arr = ["c=", "c-", "dz=", "d-", "lj", "nj", "s=", "z="] # 크로아티아 알파벳
 word = input() # 단어 입력
-count = 0 # 알파벳 개수
+count = 0 # 알파벳 개수를 담을 변수
 
 # 크로아티아 알파벳을 x 로 치환하며 카운트
 for alp in arr:

@@ -2,7 +2,7 @@
 
 n = int(input()) # 숫자 개수 입력
 nums = list(map(int, input().split())) # 숫자 입력
-res = 0 # 소수의 개수
+res = 0 # 소수의 개수를 담을 변수
 
 # 소수 판별
 for num in nums:
