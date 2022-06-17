@@ -2,7 +2,7 @@
 
 x,n = map(int, input().split()) # 간격과 개수를 입력
 
-# 입력한 간격과 개수만큼 수를 배열에 저장하는 함수
+# 입력한 간격과 개수만큼 수를 배열에 저장
 def solution(x, n):
     answer = [x*i for i in range(1,n+1)]
     return answer
