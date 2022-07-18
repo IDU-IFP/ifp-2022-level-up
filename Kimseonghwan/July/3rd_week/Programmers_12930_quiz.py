@@ -18,8 +18,7 @@
 def solution(s):
     state = True
     answer = ''
-    lists = list(s.lower().split(' '))
-    for i in lists:
+    for i in s.lower().split(' '):
         state = True
         for j in i:
             answer += j.upper() if state else j
