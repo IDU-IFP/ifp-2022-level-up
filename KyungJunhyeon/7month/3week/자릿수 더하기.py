@@ -5,6 +5,3 @@ def solution(n):
     for i in listN:
         count += int(i)
     return count
-
-
-print(solution(123))
