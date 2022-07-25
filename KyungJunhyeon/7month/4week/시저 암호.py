@@ -15,3 +15,4 @@ def solution(s, n):
 
 
 print(solution("a B z E", 4))  # 'e F d I'
+# 이렇게 푸는구만...
