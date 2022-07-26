@@ -28,7 +28,7 @@ def solution(n):
             result.append(i)
             result.append(n/i)
     answer = sum(set(result))
-    return answer
+    return int(answer)
 
 
 print(solution(12))
