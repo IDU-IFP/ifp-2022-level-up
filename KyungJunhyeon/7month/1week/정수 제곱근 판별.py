@@ -11,6 +11,3 @@ def solution(n):
     else:
         finalAnswer = -1
     return finalAnswer
-
-
-print(solution(3))
