@@ -22,7 +22,7 @@
 # 함수 -----------------------------------------------------------
 def solution(n):
     answer = 0
-    for i in n:
+    for i in str(n):
         answer += int(i)
     return answer
 
