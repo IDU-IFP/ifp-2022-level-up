@@ -28,12 +28,10 @@ def solution(num):
     result = [0 for i in range(num+1)]
     result[0] = result[1] = 1
     for i in range(2, math.ceil(math.sqrt(num))+1):
+        if result[i]:
+            continue
         for j in range(i*2, num+1, i):
-            if result[j]:
-                continue
             result[j] = 1
-
-    print(result)
     return result.count(0)
 
 
