@@ -30,7 +30,6 @@ def solution(numbers):
     result = 0
     for i in range(10):
         if answer[i] == 0:
-            print(i, result)
             result += i
     return result
 
