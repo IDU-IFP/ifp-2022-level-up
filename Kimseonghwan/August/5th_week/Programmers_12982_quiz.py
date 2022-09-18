@@ -34,11 +34,10 @@
 def solution(d, budget):
     total = 0
     for i, j in enumerate(sorted(d)):
-        print(i, j)
         total += j
         if(total > budget):
             return i
-    return budget
+    return len(d)
 
 
 print(solution([2, 2, 3, 3], 10))
