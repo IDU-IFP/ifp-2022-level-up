@@ -27,8 +27,6 @@
 # 함수 -----------------------------------------------------------
 
 def solution(n):
-    print(get3num(n))
-    print(get3num(n)[::-1])
     return int(get3num(n)[::-1], 3)
 
 
