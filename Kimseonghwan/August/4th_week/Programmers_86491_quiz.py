@@ -37,16 +37,15 @@
 # 입출력 예 #3
 # 명함들을 적절히 회전시켜 겹쳤을 때, 모든 명함을 포함하는 가장 작은 지갑의 크기는 133(=19 x 7)입니다.
 # 함수 -----------------------------------------------------------
-import math
+def solution(sizes):
+    a = 0
+    b = 0
+    for i, j in sizes:
+        if i < j:
+            i, j = j, i
+        a = i if a < i else a
+        b = j if b < j else b
+    return a*b
 
 
-def solution(n):
-    if n % 2:
-        return 2
-    n -= 1
-    for i in range(3, n+1):
-        if n % i == 0:
-            return i
-
-
-print(solution(10))
+print([[60, 50], [30, 70], [60, 30], [80, 40]])
