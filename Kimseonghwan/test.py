@@ -1,3 +1,1 @@
-lists = [46, 33, 33, 22, 31, 50, 1, 1]
-lists.sort()
-print(lists)
+print(len(("a"*20)[0:15]))
