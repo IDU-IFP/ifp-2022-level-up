@@ -1,0 +1,31 @@
+area = {'S': 1, 'D': 2, 'T': 3}
+bonus = ['*', '#']
+
+def solution(dartResult):
+    num = []
+    scores = []
+    count = -1
+    for a in dartResult:
+        try:
+            int(a)
+            num.append(a)
+        except:
+            if a not in bonus:
+                score = int("".join(num))
+                score = score ** area[a]
+                
+                count += 1
+                scores.append(score)
+                
+                print(num)
+                num.clear()
+            else:
+                if a is bonus[0]:
+                    if count > 0:
+                        scores[count - 1] *= 2
+                    scores[count] *= 2
+                        
+                else:
+                    scores[count] *= -1
+                
+    return sum(scores)
