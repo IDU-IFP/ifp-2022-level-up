@@ -4,3 +4,6 @@ def solution(n):
         if n % i == 0:
             answer += i
     return answer
+
+
+#이렇게 푸는구만...
